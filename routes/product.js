@@ -12,5 +12,6 @@ router.put('/:id/update_quantity/', productController.updateQuantity)
 
 router.delete('/:id', productController.deleteProduct);
 
+router.get('/get',productController.get);
 
 module.exports = router;

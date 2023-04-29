@@ -1,5 +1,15 @@
 const Product = require('../models/product');
 
+
+
+exports.get=async (req,res)=>{
+    res.status(200).send({
+        message:'Deployment is working'
+    })
+}
+
+
+
 //**********Add Products********/
 
 exports.createProduct = async (req, res) => {
