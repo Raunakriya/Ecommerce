@@ -2,15 +2,8 @@ const Product = require('../models/product');
 
 
 
-exports.get=async (req,res)=>{
-    res.status(200).send({
-        message:'Deployment is working'
-    })
-}
 
-
-
-//**********Add Products********/
+//**********Add Product********/
 
 exports.createProduct = async (req, res) => {
   const { name, quantity } = req.body;

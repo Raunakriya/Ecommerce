@@ -1,4 +1,5 @@
 const mongooose = require('mongoose');
+
 // -----------connection to mongodb-------------------//
 mongooose.connect('mongodb+srv://raunakriya:raunakcluster@cluster0.klgs2a1.mongodb.net/?retryWrites=true&w=majority');
  //mongooose.connect('mongodb://localhost/EcommerceAPI');
